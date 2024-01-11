@@ -1,0 +1,29 @@
+* {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-image: url("photos/campfire.jpg");
+  width: 100%
+}
+
+header{
+  text-align: center;
+  background-color: rgba(3, 12, 52, 0.55); /* use rgba for fine adjustments */
+  background-blend-mode: overlay;
+}
+
+p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+
+}
+
+button {
+  background-image: url("photos/campfire.jpg");
+  border-radius: 25px;
+  padding: 5px 10px 5px 10px;
+}
