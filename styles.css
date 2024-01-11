@@ -4,14 +4,14 @@
 }
 
 body {
-  background-image: url("photos/campfire.jpg");
-  width: 100%
+  background: url("photos/campfire.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
 }
 
 header{
   text-align: center;
-  background-color: rgba(3, 12, 52, 0.55); /* use rgba for fine adjustments */
-  background-blend-mode: overlay;
+  background-image: linear-gradient(rgba(3, 12, 52, 0.55), rgba(91, 91, 91, 0));
 }
 
 p {
